@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.rectangle__blue {
+  min-height: 50vh;
+  width: 300px;
+  background-color: aqua;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+.navigation__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.menu a,
+.icons a {
+  margin: 0 2em;
+}
+.header__body {
+  padding: 10em 5em 0 7em;
+  display: flex;
+}
+.image__wrapper {
+  width: 60vw;
+  height: 40vw;
+  overflow: hidden;
+}
+.image__wrapper > img {
+  width: 100%;
+  height: auto;
+}
+.image__wrapper > figcaption {
+  background:  white;
+  padding: 1em;
+  color: black;
+  transform: translateY(-100%);
+  width: 200px;
+}
+.play__icon {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  text-align: center;
+}
+.play__icon > svg {
+  width: 30px;
+  height: 30px;
+  transform: translate(50%, 50%);
+}
+.video {
+  position: relative;
+}
